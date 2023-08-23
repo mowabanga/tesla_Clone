@@ -1,0 +1,33 @@
+.model3 {
+    background: url('/model3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sect__price h2{
+    color: #eee;
+}
+
+.sect__price p a {
+    text-decoration: underline;
+}
+
+.sect__price p a:hover {
+    color: orange;
+}
+
+.sect__btns {
+    margin-top: 20rem;
+    width: 30rem;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-top: 2rem;
+}

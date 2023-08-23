@@ -1,0 +1,26 @@
+.modelY {
+    background: url('/modelY.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sect__price h2, p{
+    color: orange;
+    font-weight: 700;
+}
+
+.sect__btns {
+    margin-top: 20rem;
+    width: 30rem;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-top: 2rem;
+}

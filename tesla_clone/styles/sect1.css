@@ -1,0 +1,98 @@
+.sect1 {
+    background-image: url('/cybertruck.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.nav__logo {
+    color: #776e6e;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.nav__logo:hover {
+    cursor: pointer;
+}
+
+.nav__logo span {
+    animation: animate 1s linear infinite;
+}
+
+.nav__logo span:nth-child(1){
+    animation-delay: 0s;
+}
+
+.nav__logo span:nth-child(2){
+    animation-delay: 0.2s;
+}
+
+.nav__logo span:nth-child(3){
+    animation-delay: 0.4s;
+}
+
+.nav__logo span:nth-child(4){
+    animation-delay: 0.6s;
+}
+
+.nav__logo span:nth-child(5){
+    animation-delay: 0.8s;
+}
+
+
+@keyframes animate{
+    0%, 80% {
+        color: #776e6e;
+        text-shadow: none;
+    }
+
+    100% {
+        color: #fff;
+        text-shadow: 0 0 10px #fff,
+                    0 0 20px #fff,
+                    0 0 40px #fff,
+                    0 0 80px #fff,
+                    0 0 120px #fff,
+                    0 0 160px #fff;
+    }
+}
+
+.nav__ul {
+    display: inline-flex;
+    gap: 2em;
+}
+
+.nav__ul li {
+    transition: transform 0.1s;
+}
+
+.nav__ul li:hover {
+    transform: translateY(-2px);
+}
+
+.nav__ul li a {
+    color: orange;
+}
+
+.nav__icons{
+    display: inline-flex;
+}
+
+.nav__svg {
+    color: white;
+    width: 3em;
+    height: 1.5em;
+}
+
+.nav__svg:hover {
+    background-color: rgba(256, 256, 256, 0.06);
+    cursor: pointer;
+}

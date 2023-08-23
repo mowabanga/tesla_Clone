@@ -1,0 +1,12 @@
+import '../styles/style.css';
+import '../styles/utils.css';
+import '../styles/sect1.css';
+import '../styles/model3.css';
+import '../styles/modelY.css';
+import '../styles/modelS.css';
+import '../styles/modelX.css';
+import '../styles/solar.css';
+import '../styles/solarRoof.css';
+import '../styles/powerwall.css';
+import '../styles/charger.css';
+import '../styles/footer.css';

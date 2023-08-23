@@ -1,0 +1,25 @@
+.modelS {
+    background: url('/modelS.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sect__price {
+    color: black;
+}
+
+.sect__btns {
+    margin-top: 20rem;
+    width: 30rem;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-top: 2rem;
+}
